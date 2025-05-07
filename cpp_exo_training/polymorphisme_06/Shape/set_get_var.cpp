@@ -1,24 +1,14 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Shape.hpp                                          :+:      :+:    :+:   */
+/*   set_get_var.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kahoumou <kahoumou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/07 17:23:38 by kahoumou          #+#    #+#             */
-/*   Updated: 2025/05/07 17:33:04 by kahoumou         ###   ########.fr       */
+/*   Created: 2025/05/07 17:52:28 by kahoumou          #+#    #+#             */
+/*   Updated: 2025/05/07 17:52:57 by kahoumou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SHAPE_HPP
-# define SHAPE_HPP
-# include <iostream>
-# include <string>
+#include"Shape.hpp"
 
-class Shape
-{
-    public:
-	virtual void draw() const = 0;
-	virtual double area() const = 0;
-}
-#endif
