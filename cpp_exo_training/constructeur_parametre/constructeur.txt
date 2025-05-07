@@ -1,0 +1,45 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    constructeur.txt                                   :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kahoumou <kahoumou@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/05/01 15:15:34 by kahoumou          #+#    #+#              #
+#    Updated: 2025/05/01 15:15:43 by kahoumou         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+✅ Ce que tu dois utiliser :
+
+    Student(std::string name, int age, std::string field);
+
+    Liste d’initialisation :
+
+    Student::Student(std::string n, int a, std::string f)
+    : name(n), age(a), field(f) {}
+
+    Pas de fill() ni set_ → tout doit être prêt dans le constructeur
+
+    Un main() qui crée 3 étudiants directement et les affiche
+
+🚀 Ta mission
+
+🛠️ Crée :
+
+    Student.hpp
+
+    Student.cpp
+
+    main.cpp
+
+Et dans main.cpp, écris :
+
+Student s1("Kamel", 21, "Informatique");
+Student s2("Ali", 23, "Maths");
+Student s3("Leïla", 22, "Physique");
+
+s1.display();
+s2.display();
+s3.display();

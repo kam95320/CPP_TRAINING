@@ -1,0 +1,70 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    consigne.txt                                       :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kahoumou <kahoumou@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/05/07 15:41:36 by kahoumou          #+#    #+#              #
+#    Updated: 2025/05/07 15:44:08 by kahoumou         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+ChatGPT said:
+
+Super, Kamel ! 💪
+Tu as bien assimilé la théorie, alors attaquons l'exercice.
+📝 EXERCICE : Système de Notification avec Polymorphisme
+🎯 Objectif :
+
+Créer un système de notification polymorphe qui envoie des messages de différentes manières (par email, par SMS, par notification push).
+🧩 Plan de l'exercice :
+
+    Classe de base : Notifier
+
+        Méthode virtuelle :
+
+            virtual void send(const std::string& message) const = 0;
+
+            La méthode est pure virtuelle (car on veut que chaque dérivé la redéfinisse).
+
+    Classes dérivées :
+
+        EmailNotifier
+
+            Méthode send() envoie un email.
+
+        SMSNotifier
+
+            Méthode send() envoie un SMS.
+
+        PushNotifier
+
+            Méthode send() envoie une notification push.
+
+    Fonction main :
+
+        Créer un tableau de pointeurs de type Notifier*.
+
+        Associer chaque pointeur à une instance d'une classe dérivée (EmailNotifier, SMSNotifier, PushNotifier).
+
+        Appeler la méthode send() pour chaque notifier.
+
+🚦 Indications :
+
+    Utilise le mot-clé override pour chaque méthode send() des classes dérivées.
+
+    La méthode send() doit afficher un message de la forme :
+
+        Email : Envoi de "message" par email.
+
+        SMS : Envoi de "message" par SMS.
+
+        Push : Envoi de "message" par notification push.
+
+    Utilise un tableau de pointeurs pour stocker les objets polymorphes.
+
+    N'oublie pas de supprimer les objets à la fin.
+
+💪 À toi de jouer !
+Dès que tu as fini, envoie-moi ton code et je te donnerai des retours détaillés.

@@ -1,0 +1,89 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    User_consigne.txt                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kahoumou <kahoumou@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/05/05 14:23:16 by kahoumou          #+#    #+#              #
+#    Updated: 2025/05/05 14:23:21 by kahoumou         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+🧪 EXERCICE : Classe User avec encapsulation, getters, et setters
+🎯 Objectif :
+
+Créer une classe User qui contient des attributs privés, et que tu peux lire ou modifier uniquement avec des getters et setters.
+📋 Ce que tu dois faire :
+Dans User.hpp :
+
+    Crée une classe User contenant deux attributs privés :
+
+        std::string username
+
+        int age
+
+    Déclare :
+
+        Un constructeur par défaut
+
+        Un destructeur
+
+        Un getter et un setter pour username
+
+        Un getter et un setter pour age
+
+Dans User.cpp :
+
+    Implémente :
+
+        Le constructeur (affiche un message de création)
+
+        Le destructeur (affiche un message de destruction)
+
+        Les getters (get_username() et get_age()), avec le mot-clé const
+
+        Les setters (set_username() et set_age()), avec :
+
+            Une vérification que username n’est pas vide
+
+            Une vérification que age n’est pas négatif
+
+Dans main.cpp :
+
+    Crée un objet User
+
+    Utilise les setters pour lui donner un nom et un âge
+
+    Utilise les getters pour afficher les valeurs
+
+✅ Contraintes :
+
+    Les attributs doivent rester privés
+
+    Les getters doivent être const
+
+    Utilise const std::string& pour passer une string
+
+    Utilise les couleurs si tu veux
+
+🔍 Exemple de sortie attendue :
+
+[User created]
+Nom défini avec succès
+Âge défini avec succès
+
+Nom : Kamel
+Âge : 23
+
+[User destroyed]
+
+Quand tu es prêt :
+
+    Crée User.hpp, User.cpp, main.cpp
+
+    Envoie-moi les trois fichiers
+
+    Je corrige ligne par ligne comme d’habitude 👨‍🏫
+
+Tu peux commencer 👊

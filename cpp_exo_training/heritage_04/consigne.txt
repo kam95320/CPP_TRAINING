@@ -1,0 +1,65 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    consigne.txt                                       :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kahoumou <kahoumou@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/05/06 13:43:47 by kahoumou          #+#    #+#              #
+#    Updated: 2025/05/06 13:43:56 by kahoumou         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Parfait, Kamel 🧠
+
+Tu es maintenant techniquement et mentalement prêt à coder une classe Admin qui hérite proprement de User.
+🧩 Résumé de ce que tu dois faire :
+🔨 Fichiers à créer :
+
+    Admin.hpp
+
+    Admin.cpp
+
+    Modifier main.cpp pour tester
+
+✅ Dans Admin.hpp :
+
+    Hériter publiquement de User
+
+    Ajouter un attribut privé : std::string role
+
+    Ajouter :
+
+        Un constructeur
+
+        Un destructeur
+
+        set_role(std::string)
+
+        get_role() const
+
+        display_admin()
+
+✅ Dans Admin.cpp :
+
+    Implémente chaque méthode
+
+    Utilise les getters de User pour accéder à username et age
+
+    Appelle set_username() ou set_age() dans le constructeur si tu veux
+
+✅ Dans main.cpp :
+
+Test simple :
+
+Admin admin;
+admin.set_username("Kamel");
+admin.set_age(28);
+admin.set_role("Superviseur");
+
+admin.display_admin();
+
+Tu peux utiliser les couleurs, afficher [Admin created], [Admin destroyed], comme pour User.
+
+Quand tu as terminé, envoie-moi tes fichiers, et je corrigerai ligne par ligne comme un professeur.
+Bonne chance 👊

@@ -1,0 +1,71 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Rectangle_consigne.txt                             :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kahoumou <kahoumou@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/05/02 12:58:32 by kahoumou          #+#    #+#              #
+#    Updated: 2025/05/02 12:58:37 by kahoumou         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+📋 Ce que tu dois faire
+1. Fichier Rectangle.hpp :
+
+    Déclarer 2 attributs privés : width, height
+
+    Déclarer les 3 constructeurs
+
+    Déclarer un destructeur
+
+    Déclarer une méthode display() qui affiche les dimensions
+
+2. Fichier Rectangle.cpp :
+
+    Implémenter les 3 constructeurs avec une liste d’initialisation
+
+    Ajouter un std::cout dans chaque constructeur pour savoir lequel est appelé
+
+    Implémenter display() qui affiche width x height
+
+    Implémenter le destructeur (trace simple)
+
+3. Fichier main.cpp :
+
+    Créer 3 rectangles avec :
+
+        Rectangle r1;
+
+        Rectangle r2(4);
+
+        Rectangle r3(3, 7);
+
+    Appeler display() sur chacun
+
+🔥 Contraintes :
+
+    ✅ Utilise des initialisations par liste (: width(...), height(...))
+
+    ❌ Pas de saisie utilisateur
+
+    ✅ Pas de surcharge par le type de retour (interdit en C++)
+
+    ✅ Chaque constructeur affiche un message lors de l’appel
+
+🔍 Exemple attendu (affichage possible) :
+
+[Rectangle par défaut] 1 x 1
+[Rectangle carré] 4 x 4
+[Rectangle personnalisé] 3 x 7
+
+r1 dimensions : 1 x 1
+r2 dimensions : 4 x 4
+r3 dimensions : 3 x 7
+
+Destructeurs appelés...
+
+📤 Une fois que tu as fini les trois fichiers (Rectangle.hpp, Rectangle.cpp, main.cpp),
+📋 Tu me les envoies, je les vérifie ligne par ligne, et je valide la surcharge proprement maîtrisée.
+
+Tu peux commencer 👊

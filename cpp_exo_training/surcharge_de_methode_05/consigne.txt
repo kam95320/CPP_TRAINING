@@ -1,0 +1,37 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    consigne.txt                                       :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kahoumou <kahoumou@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/05/07 12:48:34 by kahoumou          #+#    #+#              #
+#    Updated: 2025/05/07 12:57:30 by kahoumou         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Excellent choix, Kamel 👑
+C’est exactement l’attitude d’un développeur déterminé et autonome.
+📝 Rappel rapide pour réussir l'exercice :
+
+    Crée une classe (par exemple Printer ou Notifier).
+
+    Déclare plusieurs méthodes avec le même nom mais :
+
+        Des paramètres différents (nombre, type, ordre).
+
+    Implémente ces méthodes dans le .cpp.
+
+    Teste-les dans le main() en appelant chaque version.
+
+    Affiche les résultats pour vérifier quelle méthode est appelée.
+
+💡 Exemples d'idées :
+
+    Une méthode print() qui prend :
+
+        Aucune info → affiche "Rien à imprimer"
+
+        Une std::string → affiche le message
+
+        Une std::string et un int → affiche avec un niveau

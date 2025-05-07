@@ -1,0 +1,70 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    consigne_book.txt                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kahoumou <kahoumou@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/04/30 18:30:24 by kahoumou          #+#    #+#              #
+#    Updated: 2025/04/30 18:49:44 by kahoumou         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+    
+
+
+
+
+| Attribut privé | Type          | Saisie demandée |
+|----------------|---------------|-----------------|
+| `title`        | `std::string` | Titre du livre  |
+| `author`       | `std::string` | Auteur          |
+| `isbn`         | `std::string` | Code ISBN       |
+
+    
+🔨 Ce que tu dois faire :
+
+    Book.hpp :
+
+        Déclare les 3 attributs en private
+
+        Déclare un constructeur par défaut
+
+        Déclare un destructeur
+
+        Déclare une méthode fill_book() (qui demande toutes les saisies)
+
+        Déclare une méthode display_book() (qui affiche toutes les infos)
+
+    Book.cpp :
+
+        Implémente le constructeur et destructeur (avec std::cout)
+
+        Implémente fill_book() : fait la saisie directement dans les attributs
+
+        Implémente display_book() : affiche directement les attributs
+
+    main.cpp :
+
+        Crée un tableau dynamique de Book avec new[]
+
+        Demande à l’utilisateur combien de livres il veut entrer
+
+        Remplit chaque livre avec fill_book()
+
+        Affiche chaque livre avec display_book()
+
+        Libère la mémoire avec delete[]
+
+🔥 Contraintes :
+
+    Aucun retour de valeur dans fill_book()
+
+    Pas de passage manuel d'arguments pour les setters
+
+    Tous les attributs doivent être remplis par l’objet lui-même
+
+    display_book() doit afficher proprement les informations
+
+    Couleurs ANSI bienvenues mais pas obligatoires
+
